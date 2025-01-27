@@ -1,1 +1,42 @@
-{ "version": 2 }
+{ "version": 2 }{
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1100px"
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "#0073aa",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#005177",
+                    "name": "Secondary"
+                }
+            ]
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "16px",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "18px",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "24px",
+                    "name": "Large"
+                }
+            ]
+        }
+    }
+} 
