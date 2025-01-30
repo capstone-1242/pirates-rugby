@@ -1,42 +1,90 @@
 {
-    "version": 2,
-    "settings": {
-        "layout": {
-            "contentSize": "840px",
-            "wideSize": "1100px"
-        },
-        "color": {
-            "palette": [
-                {
-                    "slug": "primary",
-                    "color": "#0073aa",
-                    "name": "Primary"
-                },
-                {
-                    "slug": "secondary",
-                    "color": "#005177",
-                    "name": "Secondary"
-                }
-            ]
-        },
+  "version": 2,
+  "settings": {
+      "layout": {
+          "contentSize": "840px",
+          "wideSize": "1100px"
+      },
+      "border": {
+        "radius": true,
+        "color": true
+      },
+      "spacing": {
+        "blockGap": true,
+        "margin": true,
+        "padding": true
+      },        
+      "color": {
+          "palette": [
+              {
+                  "slug": "primary",
+                  "color": "#0073aa",
+                  "name": "Primary"
+              },
+              {
+                  "slug": "secondary",
+                  "color": "#005177",
+                  "name": "Secondary"
+              }
+          ]
+      },
+      "typography": {
+          "fontSizes": [
+              {
+                  "slug": "small",
+                  "size": "16px",
+                  "name": "Small"
+              },
+              {
+                  "slug": "medium",
+                  "size": "18px",
+                  "name": "Medium"
+              },
+              {
+                  "slug": "large",
+                  "size": "24px",
+                  "name": "Large"
+              }
+          ],
+          "lineHeight": true
+      }
+  },
+
+  "styles": {
+    "spacing": {
+      "blockGap": "0"
+    },
+    "blocks": {
+      "core/site-tagline": {
         "typography": {
-            "fontSizes": [
-                {
-                    "slug": "small",
-                    "size": "16px",
-                    "name": "Small"
-                },
-                {
-                    "slug": "medium",
-                    "size": "18px",
-                    "name": "Medium"
-                },
-                {
-                    "slug": "large",
-                    "size": "24px",
-                    "name": "Large"
-                }
-            ]
+          "fontWeight": "bold",
+          "textTransform": "uppercase"
         }
+      },
+      "core/paragraph": {
+        "typography": {
+          
+        }
+      }
+    },
+    "elements": {
+      "link": {
+        "typography": {
+          "textDecoration": "none"
+        }
+      }
     }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
 } 
