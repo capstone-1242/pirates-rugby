@@ -25,6 +25,11 @@
                   "slug": "secondary",
                   "color": "#005177",
                   "name": "Secondary"
+              },
+              {
+                  "slug": "accent",
+                  "color": "#000000",
+                  "name": "Accent"
               }
           ]
       },
@@ -33,17 +38,32 @@
               {
                   "slug": "small",
                   "size": "16px",
-                  "name": "Small"
+                  "name": "16px"
               },
               {
                   "slug": "medium",
-                  "size": "18px",
-                  "name": "Medium"
+                  "size": "20px",
+                  "name": "20px"
               },
               {
                   "slug": "large",
                   "size": "24px",
-                  "name": "Large"
+                  "name": "24px"
+              },
+              {
+                  "slug": "xlarge",
+                  "size": "36px",
+                  "name": "36px"
+              },
+              {
+                  "slug": "xxlarge",
+                  "size": "48px",
+                  "name": "48px"
+              },
+              {
+                  "slug": "xxxlarge",
+                  "size": "64px",
+                  "name": "64px"
               }
           ],
           "lineHeight": true
@@ -78,13 +98,13 @@
   "templateParts": [
     {
       "name": "header",
-      "title": "Header",
-      "area": "header"
+      "area": "header",
+      "title": "Header"
     },
     {
       "name": "footer",
-      "title": "Footer",
-      "area": "footer"
+      "area": "footer",
+      "title": "Footer"
     }
   ]
 } 
