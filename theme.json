@@ -17,56 +17,86 @@
       "color": {
           "palette": [
               {
-                  "slug": "primary",
-                  "color": "#0073aa",
-                  "name": "Primary"
+                "slug": "primary",
+                "color": "#0073aa",
+                "name": "Primary"
               },
               {
-                  "slug": "secondary",
-                  "color": "#005177",
-                  "name": "Secondary"
+                "slug": "secondary",
+                "color": "#005177",
+                "name": "Secondary"
               },
               {
-                  "slug": "accent",
-                  "color": "#000000",
-                  "name": "Accent"
+                "slug": "accent",
+                "color": "#000000",
+                "name": "Accent"
               }
           ]
       },
       "typography": {
-          "fontSizes": [
+        "fontFamilies": [
+          {
+            "fontFace": [
               {
-                  "slug": "small",
-                  "size": "16px",
-                  "name": "16px"
-              },
-              {
-                  "slug": "medium",
-                  "size": "20px",
-                  "name": "20px"
-              },
-              {
-                  "slug": "large",
-                  "size": "24px",
-                  "name": "24px"
-              },
-              {
-                  "slug": "xlarge",
-                  "size": "36px",
-                  "name": "36px"
-              },
-              {
-                  "slug": "xxlarge",
-                  "size": "48px",
-                  "name": "48px"
-              },
-              {
-                  "slug": "xxxlarge",
-                  "size": "64px",
-                  "name": "64px"
+                "fontFamily": "Protest Strike",
+                "fontWeight": "400",
+                "fontStretch": "normal",
+                "fontStyle": "normal",
+                "src": ["file:./fonts/proteststrike.woff2"]
               }
-          ],
-          "lineHeight": true
+            ],
+            "fontFamily": "\"Protest Strike\", sans-serif",
+            "name": "Heading Font",
+            "slug": "headings"
+          },
+          {
+            "fontFace": [
+              {
+                "fontFamily": "Poppins",
+                "fontWeight": "400",
+                "fontStretch": "normal",
+                "fontStyle": "normal",
+                "src": ["file:./fonts/poppins.woff2"]
+              }
+            ],
+            "fontFamily": "\"Poppins\", sans-serif",
+            "name": "Body Font",
+            "slug": "body"
+          }
+        ],
+        "fontSizes": [
+          {
+              "slug": "small",
+              "size": "16px",
+              "name": "16px"
+          },
+          {
+              "slug": "medium",
+              "size": "20px",
+              "name": "20px"
+          },
+          {
+              "slug": "large",
+              "size": "24px",
+              "name": "24px"
+          },
+          {
+              "slug": "xlarge",
+              "size": "36px",
+              "name": "36px"
+          },
+          {
+              "slug": "xxlarge",
+              "size": "48px",
+              "name": "48px"
+          },
+          {
+              "slug": "xxxlarge",
+              "size": "64px",
+              "name": "64px"
+          }
+        ],
+        "lineHeight": true
       }
   },
 
@@ -81,9 +111,34 @@
           "textTransform": "uppercase"
         }
       },
+      "core/navigation": {
+        "typography": {
+          "fontFamily": "Protest Strike"
+        },
+        "spacing": {
+          "blockGap": true,
+          "margin": true,
+          "padding": true
+        }
+      },
+      "core/heading": {
+        "typography": {
+          "fontFamily": "Protest Strike"
+        }
+      },
       "core/paragraph": {
         "typography": {
-          
+          "fontFamily": "Poppins"
+        }
+      },
+      "core/button": {
+        "typography": {
+          "fontFamily": "Protest Strike"
+        }
+      },
+      "core/link": {
+        "typography": {
+          "fontFamily": "Protest Strike"
         }
       }
     },
@@ -91,6 +146,26 @@
       "link": {
         "typography": {
           "textDecoration": "none"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "64px"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "48px"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "36px"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "24px"
         }
       }
     }
