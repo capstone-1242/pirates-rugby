@@ -140,6 +140,11 @@
         "typography": {
           "fontFamily": "Protest Strike"
         }
+      },
+      "core/list": {
+        "typography": {
+          "fontFamily": "Poppins"
+        }
       }
     },
     "elements": {
