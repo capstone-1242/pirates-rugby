@@ -1,16 +1,17 @@
 <!-- wp:group {"tagName":"footer","style":{"spacing":{"padding":{"top":"0rem","bottom":"0rem","left":"0","right":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"color":{"background":"#2f478f"}},"textColor":"white","layout":{"type":"constrained"}} -->
 <footer class="wp-block-group has-white-color has-text-color has-background has-link-color"
   style="background-color:#2f478f;padding-top:0rem;padding-right:0;padding-bottom:0rem;padding-left:0">
-  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|50"}}}} -->
   <div class="wp-block-columns alignwide"
-    style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--20)">
-    <!-- wp:column {"verticalAlignment":"top"} -->
-    <div class="wp-block-column is-vertically-aligned-top">
-      <!-- wp:site-logo {"width":200,"shouldSyncIcon":true,"align":"left"} /--></div>
+    style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
+    <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|60"}}}} -->
+    <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:var(--wp--preset--spacing--60)">
+      <!-- wp:site-logo {"width":200,"shouldSyncIcon":true,"align":"center"} /-->
+    </div>
     <!-- /wp:column -->
 
-    <!-- wp:column -->
-    <div class="wp-block-column">
+    <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|60"}}}} -->
+    <div class="wp-block-column" style="padding-bottom:var(--wp--preset--spacing--60)">
       <!-- wp:heading {"level":3,"style":{"typography":{"letterSpacing":"1px"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
       <h3 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60);letter-spacing:1px">Site Map</h3>
       <!-- /wp:heading -->
@@ -19,8 +20,8 @@
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column -->
-    <div class="wp-block-column">
+    <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|60"}}}} -->
+    <div class="wp-block-column" style="padding-bottom:var(--wp--preset--spacing--60)">
       <!-- wp:heading {"level":3,"style":{"typography":{"letterSpacing":"1px"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
       <h3 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60);letter-spacing:1px">Contact Us
       </h3>
@@ -28,11 +29,9 @@
 
       <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
       <div class="wp-block-group">
-        <!-- wp:image {"id":76,"sizeSlug":"full","linkDestination":"none","style":{"color":[]}} -->
-        <figure class="wp-block-image size-full"><img
-            src="http://pirates-test.local/wp-content/uploads/2025/02/phone-outline-light.png" alt=""
-            class="wp-image-76" /></figure>
-        <!-- /wp:image -->
+        <!-- wp:html -->
+        <img src="/wp-content/themes/pirates-rugby/assets/phone-outline-light.png" alt="Phone icon">
+        <!-- /wp:html -->
 
         <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
         <p style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">(780)-123-4567
@@ -43,11 +42,9 @@
 
       <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
       <div class="wp-block-group">
-        <!-- wp:image {"id":74,"sizeSlug":"full","linkDestination":"none","style":{"color":[]}} -->
-        <figure class="wp-block-image size-full"><img
-            src="http://pirates-test.local/wp-content/uploads/2025/02/email-light.png" alt="" class="wp-image-74" />
-        </figure>
-        <!-- /wp:image -->
+        <!-- wp:html -->
+        <img src="/wp-content/themes/pirates-rugby/assets/email-light.png" alt="Email icon">
+        <!-- /wp:html -->
 
         <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
         <p style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">
@@ -58,11 +55,9 @@
 
       <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
       <div class="wp-block-group">
-        <!-- wp:image {"id":75,"sizeSlug":"full","linkDestination":"none","style":{"color":[]}} -->
-        <figure class="wp-block-image size-full"><img
-            src="http://pirates-test.local/wp-content/uploads/2025/02/location-pin-light-e1739149614678.png" alt=""
-            class="wp-image-75" /></figure>
-        <!-- /wp:image -->
+        <!-- wp:html -->
+        <img src="/wp-content/themes/pirates-rugby/assets/location-pin-light.png" alt="Location pin icon">
+        <!-- /wp:html -->
 
         <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
         <p style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">1904-167
@@ -73,42 +68,34 @@
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column -->
-    <div class="wp-block-column">
+    <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|60"}}}} -->
+    <div class="wp-block-column" style="padding-bottom:var(--wp--preset--spacing--60)">
       <!-- wp:heading {"level":3,"style":{"typography":{"letterSpacing":"1px"},"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
       <h3 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--60);letter-spacing:1px">Our Socials
       </h3>
       <!-- /wp:heading -->
 
-      <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-      <div class="wp-block-group">
-        <!-- wp:image {"lightbox":{"enabled":false},"id":79,"sizeSlug":"full","linkDestination":"custom"} -->
-        <figure class="wp-block-image size-full"><a href="https://www.facebook.com/Edmontonrugby/" target="_blank"
-            rel=" noreferrer noopener"><img src="http://pirates-test.local/wp-content/uploads/2025/02/fb-light.png"
-              alt="" class="wp-image-79" /></a></figure>
-        <!-- /wp:image -->
-
-        <!-- wp:image {"lightbox":{"enabled":false},"id":80,"sizeSlug":"full","linkDestination":"custom"} -->
-        <figure class="wp-block-image size-full"><a href="https://www.instagram.com/edmonton.rugby/" target="_blank"
-            rel=" noreferrer noopener"><img src="http://pirates-test.local/wp-content/uploads/2025/02/ig-light.png"
-              alt="" class="wp-image-80" /></a></figure>
-        <!-- /wp:image -->
-
-        <!-- wp:image {"lightbox":{"enabled":false},"id":81,"sizeSlug":"full","linkDestination":"custom"} -->
-        <figure class="wp-block-image size-full"><a href="https://twitter.com/edmontonrugby" target="_blank"
-            rel=" noreferrer noopener"><img src="http://pirates-test.local/wp-content/uploads/2025/02/x-light.png"
-              alt="" class="wp-image-81" /></a></figure>
-        <!-- /wp:image -->
+      <!-- wp:html -->
+      <div class="social-icons">
+        <div class="image-container">
+          <img src="/wp-content/themes/pirates-rugby/assets/fb-light.png" alt="Facebook icon">
+        </div>
+        <div class="image-container">
+          <img src="/wp-content/themes/pirates-rugby/assets/ig-light.png" alt="Instagram icon">
+        </div>
+        <div class="image-container">
+          <img src="/wp-content/themes/pirates-rugby/assets/x-light.png" alt="Twitter icon">
+        </div>
       </div>
-      <!-- /wp:group -->
+      <!-- /wp:html -->
     </div>
     <!-- /wp:column -->
   </div>
   <!-- /wp:columns -->
 
-  <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"var:preset|spacing|40","margin":{"top":"0","bottom":"0"}},"color":{"background":"#2e2e2e"}},"layout":{"type":"constrained"}} -->
+  <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40","margin":{"top":"0","bottom":"0"}},"color":{"background":"#2e2e2e"}},"layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignfull has-background"
-    style="background-color:#2e2e2e;margin-top:0;margin-bottom:0;padding-right:0;padding-left:0">
+    style="background-color:#2e2e2e;margin-top:0;margin-bottom:0;padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
     <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
     <p class="has-text-align-center has-white-color has-text-color has-link-color">Copyright © 2025 All Rights Reserved
       Pirates Rugby</p>
