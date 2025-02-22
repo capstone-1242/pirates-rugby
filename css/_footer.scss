@@ -29,6 +29,12 @@ footer {
     }
   }
 
+  .wp-block-column {
+    @media (width > $md) {
+      padding-bottom: 0 !important;
+    }
+  }
+
   p {
     color: $white;
   }
@@ -38,14 +44,14 @@ footer {
     align-items: center;
     gap: 1rem;
     
-    @media (width > $md) {
-      justify-content: space-between;
-      gap: unset;
+    // @media (width > $md) {
+    //   justify-content: space-between;
+    //   gap: unset;
 
-      .image-container {
-        width: 100%;
-      }
-    }
+    //   .image-container {
+    //     width: 100%;
+    //   }
+    // }
     
     img {
       max-width: 100%;
