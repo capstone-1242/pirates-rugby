@@ -79,6 +79,11 @@ footer nav ul li a:hover {
     margin-inline-end: 2em;
   }
 }
+@media (width > 750px) {
+  footer .wp-block-column {
+    padding-bottom: 0 !important;
+  }
+}
 footer p {
   color: #FFFFFF;
 }
@@ -86,15 +91,6 @@ footer .social-icons {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-@media (width > 750px) {
-  footer .social-icons {
-    justify-content: space-between;
-    gap: unset;
-  }
-  footer .social-icons .image-container {
-    width: 100%;
-  }
 }
 footer .social-icons img {
   max-width: 100%;
