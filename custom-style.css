@@ -66,6 +66,25 @@ body {
   line-height: 1.5;
 }
 
+.ready-to-register .wp-block-button {
+  width: 75%;
+  border: 2px solid #2F478F;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.ready-to-register .wp-block-button:hover {
+  border: 2px solid #FFFFFF;
+}
+.ready-to-register .wp-block-button a {
+  width: 100%;
+  background-color: #2F478F;
+  color: #FFFFFF;
+}
+.ready-to-register .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #2F478F;
+}
+
 footer nav ul li a {
   font-family: "Poppins", sans-serif;
 }

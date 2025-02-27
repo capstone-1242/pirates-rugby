@@ -1,3 +1,9 @@
-@use 'colors' as *;
-@use 'breakpoints' as *;
+@use "colors" as *;
+@use "breakpoints" as *;
+@use "mixins" as *;
 
+.ready-to-register {
+  .wp-block-button {
+    @include buttonStyles($width: 75%);
+  }
+}
