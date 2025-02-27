@@ -66,23 +66,44 @@ body {
   line-height: 1.5;
 }
 
-.ready-to-register .wp-block-button {
-  width: 75%;
-  border: 2px solid #2F478F;
+.solid-button .wp-block-button {
+  width: 250px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
   border-radius: 3px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
-.ready-to-register .wp-block-button:hover {
-  border: 2px solid #FFFFFF;
+.solid-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
 }
-.ready-to-register .wp-block-button a {
+.solid-button .wp-block-button a {
   width: 100%;
-  background-color: #2F478F;
+  background-color: #4169E1;
   color: #FFFFFF;
 }
-.ready-to-register .wp-block-button a:hover {
+.solid-button .wp-block-button a:hover {
   background-color: #FFFFFF;
-  color: #2F478F;
+  color: #4169E1;
+}
+
+.outline-button .wp-block-button {
+  width: 250px;
+  background-color: #4169E1;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.outline-button .wp-block-button:hover {
+  border: 2px solid #FFFFFF;
+}
+.outline-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.outline-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
 }
 
 footer nav ul li a {

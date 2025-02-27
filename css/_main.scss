@@ -2,8 +2,6 @@
 @use "breakpoints" as *;
 @use "mixins" as *;
 
-.ready-to-register {
-  .wp-block-button {
-    @include buttonStyles($width: 75%);
-  }
-}
+
+// PROGRAMS PAGE
+
