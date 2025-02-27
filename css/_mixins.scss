@@ -1,0 +1,25 @@
+@use "colors" as *;
+
+@mixin buttonStyles($width: 100%, $bg-color: $secondary-blue, $bg-color-hover: $white, $text-color: $white, $text-color-hover: $secondary-blue) {
+  width: $width;
+  border: 2px solid $bg-color;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  &:hover {
+    border: 2px solid $bg-color-hover;
+  }
+
+  a {
+    width: 100%;
+    background-color: $bg-color;
+    color: $text-color;
+    
+    &:hover {
+      background-color: $bg-color-hover;
+      color: $text-color-hover;
+    }
+  }
+}
+
+
