@@ -1,2 +1,118 @@
-@use 'colors' as *;
 @use 'breakpoints' as *;
+@use 'colors' as *;
+
+.wp-block-cover {
+  // Mobile padding adjustments
+  @media (width <= $md) {
+    padding: var(--wp--preset--spacing--30) !important;
+    min-height: 350px !important;
+  }
+
+  // Header content container
+  .wp-block-cover__inner-container {
+    // Logo and navigation container - this targets the main flex container
+    .wp-block-group.alignwide {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      width: 100% !important;
+
+      @media (width <= $md) {
+        // Ensure flex properties are maintained at all screen sizes
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+      }
+      
+      // Logo container - first child group
+      > .wp-block-group {
+        flex: 0 0 auto !important;
+        
+        @media (width <= $md) {
+          flex: 0 0 auto !important;
+        }
+      }
+      
+      // Navigation container - direct navigation child
+      > .wp-block-navigation {
+        flex: 0 0 auto !important;
+        margin-left: auto !important;
+        
+        @media (width <= $md) {
+          flex: 0 0 auto !important;
+          margin-left: auto !important;
+          width: auto !important;
+        }
+        
+        // Fix hamburger menu alignment
+        &.has-modal-open .wp-block-navigation__responsive-container,
+        .wp-block-navigation__responsive-container-open {
+          align-items: center;
+        }
+      }
+    }
+
+    // Hero content - specifically target the heading container group
+    > div:nth-child(3) {
+      @media (width <= $md) {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+      }
+    }
+
+    // Hero heading
+    h1, .wp-block-heading {
+      @media (width <= $md) {
+        text-align: center !important;
+        font-size: 48px !important;
+        width: 100% !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+    }
+
+    // Hero paragraph
+    p, .header-p {
+      @media (width <= $md) {
+        text-align: center !important;
+        font-size: 20px !important;
+        padding: var(--wp--preset--spacing--20) 0 !important;
+        width: 100% !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+    }
+
+    // Button container
+    .wp-block-buttons {
+      @media (width <= $md) {
+        flex-direction: column;
+        padding: 0 !important;
+        gap: var(--wp--preset--spacing--30) !important;
+        
+        // Make buttons full width on mobile
+        .wp-block-button {
+          width: 75% !important;
+        }
+      }
+    }
+
+    // Adjust spacers for mobile
+    .wp-block-spacer {
+      @media (width <= $md) {
+        height: 40px !important;
+      }
+    }
+  }
+}
