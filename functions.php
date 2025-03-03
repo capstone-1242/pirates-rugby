@@ -6,8 +6,6 @@ function my_custom_block_theme_assets() {
 }
 add_action('wp_enqueue_scripts', 'my_custom_block_theme_assets');
 
-<<<<<<< Updated upstream
-=======
 function custom_scss_style() {
   wp_enqueue_style(
     'custom-scss-style',
@@ -25,8 +23,6 @@ function pirates_rugby_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'pirates_rugby_enqueue_styles');
 
-
->>>>>>> Stashed changes
 // Add support for Full Site Editing (FSE)
 add_theme_support('block-templates');
 add_theme_support('editor-styles');
