@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Protest_Strike";
+  src: url("/wp-content/themes/pirates-rugby/fonts/proteststrike.woff2") format("woff2"), url("/wp-content/themes/pirates-rugby/fonts/proteststrike.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins_Semi_Bold";
+  src: url("/wp-content/themes/pirates-rugby/fonts/poppins.woff2") format("woff2"), url("/wp-content/themes/pirates-rugby/fonts/poppins.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/wp-content/themes/pirates-rugby/fonts/poppins.woff2") format("woff2"), url("/wp-content/themes/pirates-rugby/fonts/poppins.woff") format("woff");
+  font-style: normal;
+}
+h1 {
+  font-family: "Protest_Strike", sans-serif;
+  font-size: 48px;
+  line-height: 1;
+}
+@media (width > 750px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+h2 {
+  font-family: "Protest_Strike", sans-serif;
+  font-size: 36px;
+  line-height: 1;
+}
+@media (width > 750px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+
+h3 {
+  font-family: "Poppins_Semi_Bold", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 500;
+}
+@media (width > 750px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-family: "Poppins_Semi_Bold", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+a {
+  font-family: "Protest_Strike", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.solid-button .wp-block-button {
+  width: 250px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.solid-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.solid-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.solid-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+
+.outline-button .wp-block-button {
+  width: 250px;
+  background-color: #4169E1;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.outline-button .wp-block-button:hover {
+  border: 2px solid #FFFFFF;
+}
+.outline-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.outline-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+}
+
+footer nav ul li a {
+  font-family: "Poppins", sans-serif;
+}
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+@media (width > 750px) {
+  footer .wp-block-column:first-of-type div:first-of-type {
+    float: left;
+    margin-inline-start: 0;
+    margin-inline-end: 2em;
+  }
+}
+@media (width > 750px) {
+  footer .wp-block-column {
+    padding-bottom: 0 !important;
+  }
+}
+footer p {
+  color: #FFFFFF;
+}
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .social-icons img {
+  max-width: 100%;
+  margin: 0;
+}
+
+/*# sourceMappingURL=custom-style.css.map */

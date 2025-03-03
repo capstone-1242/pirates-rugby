@@ -17,7 +17,6 @@ function custom_scss_style() {
 }
 add_action('wp_enqueue_scripts', 'custom_scss_style');
 
-
 function pirates_rugby_enqueue_styles() {
   wp_enqueue_style('pirates-rugby-styles', get_template_directory_uri() . '/css/style.css', array(), '1.0.0');
 }

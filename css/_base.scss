@@ -1,0 +1,42 @@
+@use "fonts" as *;
+@use "colors" as *;
+@use "mixins" as *;
+@use "breakpoints" as *;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.solid-button {
+  .wp-block-button {
+    @include buttonStyles(
+      $width: 250px,
+      $bg-color: $primary-blue, 
+      $bg-color-hover: $white, 
+      $text-color: $white, 
+      $text-color-hover: $primary-blue,
+      $border-color: $primary-blue,
+      $border-color-hover: $primary-blue
+    );
+  }
+}
+
+.outline-button {
+  .wp-block-button {
+    @include buttonStyles(
+      $width: 250px,
+      $bg-color: $primary-blue, 
+      $bg-color-hover: $white, 
+      $text-color: $white, 
+      $text-color-hover: $primary-blue,
+      $border-color: $white,
+      $border-color-hover: $white);
+  }
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+}
