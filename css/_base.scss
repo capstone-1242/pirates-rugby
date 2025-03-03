@@ -37,6 +37,13 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   margin: 0;
+  display: block;
+}
+
+.cover {
+  min-height: 375px;
+  height: 100%;
+  object-fit: cover;
 }

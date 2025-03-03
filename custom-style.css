@@ -107,8 +107,35 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   margin: 0;
+  display: block;
+}
+
+.cover {
+  min-height: 375px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.index-about-us .solid-button .wp-block-button {
+  width: 300px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.index-about-us .solid-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.index-about-us .solid-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.index-about-us .solid-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
 }
 
 footer nav ul li a {

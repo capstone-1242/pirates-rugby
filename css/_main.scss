@@ -1,7 +1,23 @@
 @use "colors" as *;
 @use "breakpoints" as *;
 @use "mixins" as *;
+@use "base" as *;
 
 
-// PROGRAMS PAGE
+// INDEX PAGE
 
+.index-about-us {
+  .solid-button {
+    .wp-block-button {
+      @include buttonStyles(
+        $width: 300px,
+        $bg-color: $primary-blue, 
+        $bg-color-hover: $white, 
+        $text-color: $white, 
+        $text-color-hover: $primary-blue,
+        $border-color: $primary-blue,
+        $border-color-hover: $primary-blue
+      );
+    }
+  }
+}
