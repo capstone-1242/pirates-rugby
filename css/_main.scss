@@ -5,19 +5,111 @@
 
 
 // INDEX PAGE
+.index-page {
 
-.index-about-us {
-  .solid-button {
+  .index-about-us {
+    .solid-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 300px,
+          $bg-color: $primary-blue, 
+          $bg-color-hover: $white, 
+          $text-color: $white, 
+          $text-color-hover: $primary-blue,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+  }
+
+  .senior-rugby, .rentals {
+    .wp-block-column:first-of-type {
+      @media (width > $md) {
+        order: 2;
+      }
+    }
+
+    .wp-block-column:last-of-type {
+      .wp-block-group {
+
+        @media (width < $md) {
+          justify-self: start;
+        }
+      }
+    }
+  }
+
+  .junior-mini-rugby, .history {
+    .wp-block-column:last-of-type {
+      .wp-block-group {
+
+        @media (width < $md) {
+          padding-left: 1rem !important;
+        }
+      }
+    }
+  }
+  
+  .section-content-right {
+    height: 100%;
+    max-width: 575px;
+    justify-self: end;
+  }
+
+  .section-content-left {
+    height: 100%;
+    max-width: 575px;
+    justify-self: start;
+  }
+
+  .skip-the-depot {
+    .solid-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 300px,
+          $bg-color: transparent, 
+          $bg-color-hover: $white, 
+          $text-color: $white, 
+          $text-color-hover: $primary-blue,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+  }
+
+}
+
+// PROGRAMS PAGE
+.ready-to-register {
+  .outline-button {
     .wp-block-button {
       @include buttonStyles(
         $width: 300px,
-        $bg-color: $primary-blue, 
+        $bg-color: transparent, 
         $bg-color-hover: $white, 
         $text-color: $white, 
         $text-color-hover: $primary-blue,
-        $border-color: $primary-blue,
-        $border-color-hover: $primary-blue
+        $border-color: $white,
+        $border-color-hover: $white
       );
     }
   }
+}
+.what-to-expect {
+
+  .image-container {
+    height: 100%;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      @media (width > $lg) {
+        align-items: start;
+        max-height: 500px;
+      }
+    }
+  }
+
 }
