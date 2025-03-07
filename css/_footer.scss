@@ -20,6 +20,9 @@ footer {
   .wp-block-column:first-of-type {
 
     div:first-of-type {
+      .custom-logo {
+        max-width: 150px;
+      }
       @media (width > $md) {
         float: left;
         margin-inline-start: 0;
