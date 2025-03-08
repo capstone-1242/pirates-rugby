@@ -13,6 +13,8 @@ Paragraph, Lists - Poppins
 | h4 | 24px |
 | p  | 16px |
 
+**Margins:**\
+p - margin-bottom 1rem
 
 ## Notes:
 **How to get images from the theme folder:**\

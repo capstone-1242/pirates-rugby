@@ -62,7 +62,7 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -315,6 +315,131 @@ img {
   }
 }
 
+.senior-rugby-page .fees-card .solid-button .wp-block-button {
+  width: 175px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.senior-rugby-page .fees-card .solid-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.senior-rugby-page .fees-card .solid-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+  transition: all 0.1s ease-in;
+}
+.senior-rugby-page .fees-card .solid-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+.senior-rugby-page .fees-card .outline-button .wp-block-button {
+  width: 175px;
+  background-color: transparent;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.senior-rugby-page .fees-card .outline-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.senior-rugby-page .fees-card .outline-button .wp-block-button a {
+  width: 100%;
+  background-color: transparent;
+  color: #4169E1;
+  transition: all 0.1s ease-in;
+}
+.senior-rugby-page .fees-card .outline-button .wp-block-button a:hover {
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+
+.junior-rugby-page .mini-card .solid-button .wp-block-button {
+  width: 175px;
+  background-color: #4169E1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.junior-rugby-page .mini-card .solid-button .wp-block-button:hover {
+  border: 2px solid transparent;
+}
+.junior-rugby-page .mini-card .solid-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+  transition: all 0.1s ease-in;
+}
+.junior-rugby-page .mini-card .solid-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+.junior-rugby-page .mini-card .outline-button .wp-block-button {
+  width: 175px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.junior-rugby-page .mini-card .outline-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.junior-rugby-page .mini-card .outline-button .wp-block-button a {
+  width: 100%;
+  background-color: transparent;
+  color: #FFFFFF;
+  transition: all 0.1s ease-in;
+}
+.junior-rugby-page .mini-card .outline-button .wp-block-button a:hover {
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.junior-rugby-page .junior-card .solid-button .wp-block-button {
+  width: 175px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.junior-rugby-page .junior-card .solid-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.junior-rugby-page .junior-card .solid-button .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+  transition: all 0.1s ease-in;
+}
+.junior-rugby-page .junior-card .solid-button .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+.junior-rugby-page .junior-card .outline-button .wp-block-button {
+  width: 175px;
+  background-color: transparent;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.junior-rugby-page .junior-card .outline-button .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.junior-rugby-page .junior-card .outline-button .wp-block-button a {
+  width: 100%;
+  background-color: transparent;
+  color: #4169E1;
+  transition: all 0.1s ease-in;
+}
+.junior-rugby-page .junior-card .outline-button .wp-block-button a:hover {
+  background-color: #4169E1;
+  color: #FFFFFF;
+}
+.junior-rugby-page .financial-assistance .image-container {
+  width: fit-content;
+}
+
 footer nav ul li a {
   font-family: "Poppins", sans-serif;
 }
@@ -336,8 +461,9 @@ footer .wp-block-column:first-of-type div:first-of-type .custom-logo {
     padding-bottom: 0 !important;
   }
 }
-footer p {
+footer p, footer li {
   color: #FFFFFF;
+  font-size: 16px;
 }
 footer .social-icons {
   display: flex;

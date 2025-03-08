@@ -97,8 +97,8 @@
     }
   }
 }
-.what-to-expect {
 
+.what-to-expect {
   .image-container {
     height: 100%;
 
@@ -111,5 +111,106 @@
       }
     }
   }
+}
 
+// SENIOR RUGBY PAGE
+.senior-rugby-page {
+  .fees-card {
+    .solid-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: $primary-blue, 
+          $bg-color-hover: $white, 
+          $text-color: $white, 
+          $text-color-hover: $primary-blue,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+
+    .outline-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: transparent, 
+          $bg-color-hover: $primary-blue, 
+          $text-color: $primary-blue, 
+          $text-color-hover: $white,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+  }
+}
+
+// JUNIOR RUGBY PAGE
+.junior-rugby-page {
+  .mini-card {
+    .solid-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: $primary-blue, 
+          $bg-color-hover: $white, 
+          $text-color: $white, 
+          $text-color-hover: $primary-blue,
+          $border-color: transparent,
+          $border-color-hover: transparent
+        );
+      }
+    }
+
+    .outline-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: transparent, 
+          $bg-color-hover: $primary-blue, 
+          $text-color: $white, 
+          $text-color-hover: $white,
+          $border-color: $white,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+  }
+
+  .junior-card {
+    .solid-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: $primary-blue, 
+          $bg-color-hover: $white, 
+          $text-color: $white, 
+          $text-color-hover: $primary-blue,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+
+    .outline-button {
+      .wp-block-button {
+        @include buttonStyles(
+          $width: 175px,
+          $bg-color: transparent, 
+          $bg-color-hover: $primary-blue, 
+          $text-color: $primary-blue, 
+          $text-color-hover: $white,
+          $border-color: $primary-blue,
+          $border-color-hover: $primary-blue
+        );
+      }
+    }
+  }
+
+  .financial-assistance {
+    .image-container {
+      width: fit-content;
+    }
+  }
 }

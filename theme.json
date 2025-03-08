@@ -124,11 +124,21 @@
       "core/heading": {
         "typography": {
           "fontFamily": "Protest Strike"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1rem"
+          }
         }
       },
       "core/paragraph": {
         "typography": {
           "fontFamily": "Poppins"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1rem"
+          }
         }
       },
       "core/button": {
