@@ -214,3 +214,42 @@
     }
   }
 }
+
+// HISTORY PAGE
+.history-links {
+  .wp-block-button {
+    @include buttonStyles(
+      $width: 200px,
+      $bg-color: $primary-blue, 
+      $bg-color-hover: $white, 
+      $text-color: $white, 
+      $text-color-hover: $primary-blue,
+      $border-color: $primary-blue,
+      $border-color-hover: $primary-blue
+    );
+  }
+}
+
+// CONTACT PAGE
+.contact-page {
+  section:first-of-type {
+    a {
+      font-family: unset;
+      font-weight: bold;
+    }
+  }
+
+  form {
+    .wpforms-container-full button[type=submit] {
+      @include buttonStyles(
+        $width: 200px !important,
+        $bg-color: $primary-blue !important, 
+        $bg-color-hover: $white !important, 
+        $text-color: $white !important, 
+        $text-color-hover: $primary-blue !important,
+        $border-color: $primary-blue !important,
+        $border-color-hover: $primary-blue !important
+      );
+    }
+  }
+}
