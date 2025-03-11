@@ -239,17 +239,4 @@
     }
   }
 
-  form {
-    .wpforms-container-full button[type=submit] {
-      @include buttonStyles(
-        $width: 200px !important,
-        $bg-color: $primary-blue !important, 
-        $bg-color-hover: $white !important, 
-        $text-color: $white !important, 
-        $text-color-hover: $primary-blue !important,
-        $border-color: $primary-blue !important,
-        $border-color-hover: $primary-blue !important
-      );
-    }
-  }
 }
