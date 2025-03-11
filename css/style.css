@@ -440,6 +440,52 @@ img {
   width: fit-content;
 }
 
+.history-links .wp-block-button {
+  width: 200px;
+  background-color: #4169E1;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.history-links .wp-block-button:hover {
+  border: 2px solid #4169E1;
+}
+.history-links .wp-block-button a {
+  width: 100%;
+  background-color: #4169E1;
+  color: #FFFFFF;
+  transition: all 0.1s ease-in;
+}
+.history-links .wp-block-button a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+
+.contact-page section:first-of-type a {
+  font-family: unset;
+  font-weight: bold;
+}
+.contact-page form .wpforms-container-full button[type=submit] {
+  width: 200px !important;
+  background-color: #4169E1 !important;
+  border: 2px solid #4169E1 !important;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.contact-page form .wpforms-container-full button[type=submit]:hover {
+  border: 2px solid #4169E1 !important;
+}
+.contact-page form .wpforms-container-full button[type=submit] a {
+  width: 100%;
+  background-color: #4169E1 !important;
+  color: #FFFFFF !important;
+  transition: all 0.1s ease-in;
+}
+.contact-page form .wpforms-container-full button[type=submit] a:hover {
+  background-color: #FFFFFF !important;
+  color: #4169E1 !important;
+}
+
 footer nav ul li a {
   font-family: "Poppins", sans-serif;
 }
