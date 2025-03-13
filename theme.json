@@ -1,103 +1,106 @@
 {
   "version": 2,
   "settings": {
-      "layout": {
-          "contentSize": "840px",
-          "wideSize": "1100px"
-      },
-      "border": {
-        "radius": true,
-        "color": true
-      },
-      "spacing": {
-        "blockGap": true,
-        "margin": true,
-        "padding": true
-      },        
-      "color": {
-          "palette": [
-              {
-                "slug": "primary",
-                "color": "#4169E1",
-                "name": "Primary"
-              },
-              {
-                "slug": "secondary",
-                "color": "#24397B",
-                "name": "Secondary"
-              },
-              {
-                "slug": "accent",
-                "color": "#000000",
-                "name": "Accent"
-              }
-          ]
-      },
-      "typography": {
-        "fontFamilies": [
-          {
-            "fontFace": [
-              {
-                "fontFamily": "Protest Strike",
-                "fontWeight": "400",
-                "fontStretch": "normal",
-                "fontStyle": "normal",
-                "src": ["file:./fonts/proteststrike.woff2"]
-              }
-            ],
-            "fontFamily": "\"Protest Strike\", sans-serif",
-            "name": "Heading Font",
-            "slug": "headings"
-          },
-          {
-            "fontFace": [
-              {
-                "fontFamily": "Poppins",
-                "fontWeight": "400",
-                "fontStretch": "normal",
-                "fontStyle": "normal",
-                "src": ["file:./fonts/poppins.woff2"]
-              }
-            ],
-            "fontFamily": "\"Poppins\", sans-serif",
-            "name": "Body Font",
-            "slug": "body"
-          }
-        ],
-        "fontSizes": [
-          {
-              "slug": "small",
-              "size": "16px",
-              "name": "16px"
-          },
-          {
-              "slug": "medium",
-              "size": "20px",
-              "name": "20px"
-          },
-          {
-              "slug": "large",
-              "size": "24px",
-              "name": "24px"
-          },
-          {
-              "slug": "xlarge",
-              "size": "36px",
-              "name": "36px"
-          },
-          {
-              "slug": "xxlarge",
-              "size": "48px",
-              "name": "48px"
-          },
-          {
-              "slug": "xxxlarge",
-              "size": "64px",
-              "name": "64px"
-          }
-        ],
-        "lineHeight": true
-      }
+    "layout": {
+        "contentSize": "840px",
+        "wideSize": "1100px"
+    },
+    "dimensions": {
+      "minHeight": true
+    },
+    "border": {
+      "radius": true,
+      "color": true
+    },
+    "spacing": {
+      "blockGap": true,
+      "margin": true,
+      "padding": true
+    },        
+    "color": {
+        "palette": [
+            {
+              "slug": "primary",
+              "color": "#4169E1",
+              "name": "Primary"
+            },
+            {
+              "slug": "secondary",
+              "color": "#24397B",
+              "name": "Secondary"
+            },
+            {
+              "slug": "accent",
+              "color": "#000000",
+              "name": "Accent"
+            }
+        ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Protest Strike",
+              "fontWeight": "400",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": ["file:./fonts/proteststrike.woff2"]
+            }
+          ],
+          "fontFamily": "\"Protest Strike\", sans-serif",
+          "name": "Heading Font",
+          "slug": "headings"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Poppins",
+              "fontWeight": "400",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": ["file:./fonts/poppins.woff2"]
+            }
+          ],
+          "fontFamily": "\"Poppins\", sans-serif",
+          "name": "Body Font",
+          "slug": "body"
+        }
+      ],
+      "fontSizes": [
+        {
+            "slug": "small",
+            "size": "16px",
+            "name": "16px"
+        },
+        {
+            "slug": "medium",
+            "size": "20px",
+            "name": "20px"
+        },
+        {
+            "slug": "large",
+            "size": "24px",
+            "name": "24px"
+        },
+        {
+            "slug": "xlarge",
+            "size": "36px",
+            "name": "36px"
+        },
+        {
+            "slug": "xxlarge",
+            "size": "48px",
+            "name": "48px"
+        },
+        {
+            "slug": "xxxlarge",
+            "size": "64px",
+            "name": "64px"
+        }
+      ],
+      "lineHeight": true
+    }
   },
 
   "styles": {
