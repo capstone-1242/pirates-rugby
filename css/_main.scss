@@ -276,3 +276,44 @@
   }
 
 }
+
+
+// ALL ARCHIVES PAGE
+.all-archives-page {
+  article {
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      > div:first-of-type {
+        flex: 1;
+      }
+
+      > div:last-of-type {
+        width: 100%;
+        
+        a {
+          box-sizing: border-box;
+          width: 100%;
+          text-align: center;
+          transition: 0.2s ease-in-out;
+
+          &:hover {
+            background-color: $white !important;
+            border: 2px solid $primary-blue !important;
+            color: $primary-blue !important;
+          }
+        }
+      }
+    }
+  }
+
+  .page-numbers {
+    font-family: unset;
+    font-weight: 700;
+  }
+}

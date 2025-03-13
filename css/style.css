@@ -493,6 +493,37 @@ img {
   font-weight: bold;
 }
 
+.all-archives-page article {
+  display: flex;
+  flex-direction: column;
+}
+.all-archives-page article > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.all-archives-page article > div > div:first-of-type {
+  flex: 1;
+}
+.all-archives-page article > div > div:last-of-type {
+  width: 100%;
+}
+.all-archives-page article > div > div:last-of-type a {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+.all-archives-page article > div > div:last-of-type a:hover {
+  background-color: #FFFFFF !important;
+  border: 2px solid #4169E1 !important;
+  color: #4169E1 !important;
+}
+.all-archives-page .page-numbers {
+  font-family: unset;
+  font-weight: 700;
+}
+
 footer nav ul li a {
   font-family: "Poppins", sans-serif;
 }
