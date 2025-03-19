@@ -524,6 +524,23 @@ img {
   font-weight: 700;
 }
 
+.single-post-page .wp-block-post-navigation-link a {
+  text-align: center;
+  display: inline-block;
+  width: 125px;
+  background-color: #4169E1;
+  color: #FFFFFF;
+  padding: 0.75rem 0;
+  border: 2px solid #4169E1;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  transition: all 0.1s ease-in;
+}
+.single-post-page .wp-block-post-navigation-link a:hover {
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+
 footer nav ul li a {
   font-family: "Poppins", sans-serif;
 }
