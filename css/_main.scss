@@ -114,6 +114,29 @@
       }
     }
   }
+
+  .fooevents_calendar {
+    font-size: 16px;
+  }
+
+  #cal1_fooevents_calendar {
+    @media (width < $md) {
+      display: none;
+    }
+  }
+
+  #cal2_fooevents_calendar {
+    @media (width > $md) {
+      display: none;
+    }
+
+    .fc-scroller {
+      height: fit-content !important;
+    }
+  }
+
+
+
 }
 
 
@@ -336,5 +359,17 @@
       background-color: $white;
       color: $primary-blue;
     }
+  }
+
+  .wp-block-template-part {
+    ul li a {
+      font-family: unset;
+      font-size: 16px;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
   }
 }
