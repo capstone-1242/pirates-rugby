@@ -306,6 +306,22 @@ img {
   border: 2px solid #4169E1 !important;
   color: #4169E1 !important;
 }
+.news-and-events-page .fooevents_calendar {
+  font-size: 16px;
+}
+@media (width < 750px) {
+  .news-and-events-page #cal1_fooevents_calendar {
+    display: none;
+  }
+}
+@media (width > 750px) {
+  .news-and-events-page #cal2_fooevents_calendar {
+    display: none;
+  }
+}
+.news-and-events-page #cal2_fooevents_calendar .fc-scroller {
+  height: fit-content !important;
+}
 
 .ready-to-register .outline-button .wp-block-button {
   width: 300px;
@@ -539,6 +555,13 @@ img {
 .single-post-page .wp-block-post-navigation-link a:hover {
   background-color: #FFFFFF;
   color: #4169E1;
+}
+.single-post-page .wp-block-template-part ul li a {
+  font-family: unset;
+  font-size: 16px;
+}
+.single-post-page .wp-block-template-part ul li a:hover {
+  text-decoration: underline;
 }
 
 footer nav ul li a {
