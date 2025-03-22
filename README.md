@@ -35,5 +35,3 @@ Create custom HTML block and input code changing your image name\
 `git push origin branch_name` Push to branch on github repo (Creates branch on github if none exists)\
 `git remote rm repo_name` Removes remote repo (Use git remote -v to get repo name)
 
-## Command to watch Sass:
-`sass --watch css/style.scss custom-style.css`
