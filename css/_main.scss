@@ -54,13 +54,13 @@
   .section-content-right {
     height: 100%;
     max-width: 575px;
-    justify-self: end;
+    margin-left: auto;
   }
 
   .section-content-left {
     height: 100%;
     max-width: 575px;
-    justify-self: start;
+    margin-right: auto;
   }
 
   .skip-the-depot {
@@ -75,6 +75,33 @@
           $border-color: $primary-blue,
           $border-color-hover: $primary-blue
         );
+      }
+    }
+
+    .skip-button {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      max-width: 300px;
+      padding: 1rem 3rem;
+      color: $white;
+      background-color: $primary-blue;
+      text-align: center;
+      border: 2px solid $white;
+      border-radius: 3px;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      transition: all 0.1s ease-in;
+
+      &:hover {
+        background-color: $secondary-blue;
+      }
+
+      @media (width < $md) {
+        padding: 1rem 2rem;
+      }
+
+      img {
+        width: 47px;
       }
     }
   }

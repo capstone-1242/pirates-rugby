@@ -115,9 +115,19 @@ img {
 }
 
 .cover {
-  min-height: 375px;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
+}
+@media (width > 500px) {
+  .cover {
+    height: 325px;
+  }
+}
+@media (width > 750px) {
+  .cover {
+    height: 100%;
+    min-height: 375px;
+  }
 }
 
 @media (width <= 750px) {
@@ -252,12 +262,12 @@ img {
 .index-page .section-content-right {
   height: 100%;
   max-width: 575px;
-  justify-self: end;
+  margin-left: auto;
 }
 .index-page .section-content-left {
   height: 100%;
   max-width: 575px;
-  justify-self: start;
+  margin-right: auto;
 }
 .index-page .skip-the-depot .solid-button .wp-block-button {
   width: 300px;
@@ -278,6 +288,31 @@ img {
 .index-page .skip-the-depot .solid-button .wp-block-button a:hover {
   background-color: #FFFFFF;
   color: #4169E1;
+}
+.index-page .skip-the-depot .skip-button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  padding: 1rem 3rem;
+  color: #FFFFFF;
+  background-color: #4169E1;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  transition: all 0.1s ease-in;
+}
+.index-page .skip-the-depot .skip-button:hover {
+  background-color: #2F478F;
+}
+@media (width < 750px) {
+  .index-page .skip-the-depot .skip-button {
+    padding: 1rem 2rem;
+  }
+}
+.index-page .skip-the-depot .skip-button img {
+  width: 47px;
 }
 
 .news-and-events-page article {

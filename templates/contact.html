@@ -59,12 +59,11 @@
               <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
               <div class="wp-block-group">
                 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-                <p style="padding-top:0;padding-bottom:0">Rentals Information</p>
+                <p style="padding-top:0;padding-bottom:0">Facility Rentals</p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-                <p style="padding-top:0;padding-bottom:0"><a href="mailto:rentals@piratesrugby.ca" target="_blank"
-                    rel="noreferrer noopener">rentals@piratesrugby.ca</a></p>
+                <p style="padding-top:0;padding-bottom:0"><a href="mailto:rentals@piratesrugby.ca">Rentals Form</a></p>
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
@@ -122,9 +121,22 @@
   <!-- wp:group {"tagName":"section","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
   <section class="wp-block-group alignwide"
     style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
-    <!-- wp:heading {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-    <h2 class="wp-block-heading alignwide has-secondary-color has-text-color has-link-color">Pirates Executive</h2>
-    <!-- /wp:heading -->
+    <!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+    <div class="wp-block-group alignwide">
+      <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"xxlarge","fontFamily":"headings"} -->
+      <p class="has-secondary-color has-text-color has-link-color has-headings-font-family has-xxlarge-font-size">
+        [wpdts-years]</p>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:spacer {"width":"0px","style":{"layout":{"selfStretch":"fixed","flexSize":"10px"}}} -->
+      <div style="height:100px;width:0px" aria-hidden="true" class="wp-block-spacer"></div>
+      <!-- /wp:spacer -->
+
+      <!-- wp:heading {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
+      <h2 class="wp-block-heading alignwide has-secondary-color has-text-color has-link-color">Board Members</h2>
+      <!-- /wp:heading -->
+    </div>
+    <!-- /wp:group -->
 
     <!-- wp:query {"queryId":4,"query":{"perPage":20,"pages":0,"offset":0,"postType":"executive","order":"asc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"align":"wide"} -->
     <div class="wp-block-query alignwide">
