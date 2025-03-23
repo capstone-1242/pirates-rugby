@@ -5,13 +5,13 @@
 Headings, Buttons, Link - Protest Strike\
 Paragraph, Lists - Poppins 
 
-| Level | Size |
-| -- | ---- |
-| h1 | 64px |
-| h2 | 48px |
-| h3 | 36px |
-| h4 | 24px |
-| p  | 16px |
+| Level | Size | Letter Spacing (small/wide) |
+| -- | ---- | ---- |
+| h1 | 64px | 2px/2px
+| h2 | 48px | 1px/2px
+| h3 | 36px | 1px/1px
+| h4 | 24px | -
+| p  | 16px | -
 
 **Margins:**\
 p - margin-bottom 1rem

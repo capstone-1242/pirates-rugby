@@ -18,6 +18,7 @@
 h1 {
   font-family: "Protest_Strike", sans-serif;
   font-size: 48px;
+  letter-spacing: 2px;
   line-height: 1;
 }
 @media (width > 750px) {
@@ -29,17 +30,20 @@ h1 {
 h2 {
   font-family: "Protest_Strike", sans-serif;
   font-size: 36px;
+  letter-spacing: 1px;
   line-height: 1;
 }
 @media (width > 750px) {
   h2 {
     font-size: 48px;
+    letter-spacing: 2px;
   }
 }
 
 h3 {
   font-family: "Poppins_Semi_Bold", sans-serif;
   font-size: 24px;
+  letter-spacing: 1px;
   line-height: 1;
   font-weight: 500;
 }
@@ -54,10 +58,6 @@ h4 {
   font-size: 24px;
   line-height: 1;
   font-weight: 500;
-}
-
-a {
-  font-family: "Protest_Strike", sans-serif;
 }
 
 body {
@@ -263,6 +263,11 @@ img {
   height: 100%;
   max-width: 575px;
   margin-left: auto;
+}
+@media (width < 750px) {
+  .index-page .section-content-right {
+    margin-left: unset;
+  }
 }
 .index-page .section-content-left {
   height: 100%;
@@ -542,6 +547,17 @@ img {
 .contact-page section:first-of-type a {
   font-family: unset;
   font-weight: bold;
+}
+.contact-page .submit-button {
+  width: 200px;
+  height: 55px !important;
+  background-color: #4169E1 !important;
+}
+.contact-page .board-members h2 {
+  font-family: unset;
+}
+.contact-page .board-members .wp-block-post-template {
+  word-break: break-all;
 }
 
 .all-archives-page article {

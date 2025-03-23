@@ -55,6 +55,10 @@
     height: 100%;
     max-width: 575px;
     margin-left: auto;
+
+    @media (width < $md) {
+      margin-left: unset;;
+    }
   }
 
   .section-content-left {
@@ -322,6 +326,21 @@
     a {
       font-family: unset;
       font-weight: bold;
+    }
+  }
+
+  .submit-button {
+    width: 200px;
+    height: 55px !important;
+    background-color: $primary-blue !important;
+  }
+
+  .board-members {
+    h2 {
+      font-family: unset;
+    }
+    .wp-block-post-template {
+      word-break: break-all;
     }
   }
 
