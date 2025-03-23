@@ -5,6 +5,7 @@
 h1 {
   font-family: 'Protest_Strike', sans-serif;
   font-size: 48px;
+  letter-spacing: 2px;
   line-height: 1;
 
   @media (width > $md) {
@@ -15,16 +16,19 @@ h1 {
 h2 {
   font-family: 'Protest_Strike', sans-serif;
   font-size: 36px;
+  letter-spacing: 1px;
   line-height: 1;
   
   @media (width > $md) {
     font-size: 48px;
+    letter-spacing: 2px;
   }
 }
 
 h3 {
   font-family: 'Poppins_Semi_Bold', sans-serif;
   font-size: 24px;
+  letter-spacing: 1px;
   line-height: 1;
   font-weight: 500;
     
@@ -40,12 +44,12 @@ h4 {
   font-weight: 500;
 }
 
-a {
-  font-family: 'Protest_Strike', sans-serif;
-}
+// a {
+//   font-family: 'Protest_Strike', sans-serif;
+// }
 
 
-
+ 
 
 
 
