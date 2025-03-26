@@ -55,3 +55,25 @@ img {
     min-height: 375px;
   }
 }
+
+.style-div-container {
+  position: relative;
+  height: 100%;
+
+  .style-div {
+    position: absolute;
+    left: -15px;
+    height: 100%;
+    width: 4px;
+    background-color: $secondary-blue;
+
+    @media (width < $md) {
+      display: none;
+    }
+  }
+}
+
+.wp-block-categories-list, .wp-block-archives-list {
+  list-style-type: none;
+  padding: 0;
+}

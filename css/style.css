@@ -126,6 +126,28 @@ img {
   }
 }
 
+.style-div-container {
+  position: relative;
+  height: 100%;
+}
+.style-div-container .style-div {
+  position: absolute;
+  left: -15px;
+  height: 100%;
+  width: 4px;
+  background-color: #2F478F;
+}
+@media (width < 750px) {
+  .style-div-container .style-div {
+    display: none;
+  }
+}
+
+.wp-block-categories-list, .wp-block-archives-list {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media (width <= 750px) {
   .wp-block-cover {
     padding: var(--wp--preset--spacing--30) !important;
@@ -399,11 +421,11 @@ img {
 }
 .what-to-expect .image-container img {
   object-fit: cover;
+  object-position: top;
   height: 100%;
 }
-@media (width > 1200px) {
+@media (width < 750px) {
   .what-to-expect .image-container img {
-    align-items: start;
     max-height: 500px;
   }
 }
@@ -447,6 +469,9 @@ img {
 .senior-rugby-page .fees-card .outline-button .wp-block-button a:hover {
   background-color: #4169E1;
   color: #FFFFFF;
+}
+.senior-rugby-page a:hover {
+  text-decoration: underline;
 }
 
 .junior-rugby-page .mini-card .solid-button .wp-block-button {
@@ -532,6 +557,9 @@ img {
 .junior-rugby-page .financial-assistance .image-container {
   width: fit-content;
 }
+.junior-rugby-page a:hover {
+  text-decoration: underline;
+}
 
 .history-links .wp-block-button {
   width: 200px;
@@ -552,6 +580,17 @@ img {
 .history-links .wp-block-button a:hover {
   background-color: #FFFFFF;
   color: #4169E1;
+}
+
+.history-mens .notable-champs {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+@media (width > 750px) {
+  .history-mens .notable-champs {
+    margin-top: 910px;
+    margin-bottom: 170px;
+  }
 }
 
 .contact-page section:first-of-type a {
