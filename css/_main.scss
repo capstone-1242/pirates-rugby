@@ -209,9 +209,9 @@
 
     img {
       object-fit: cover;
+      object-position: top;
       height: 100%;
-      @media (width > $lg) {
-        align-items: start;
+      @media (width < $md) {
         max-height: 500px;
       }
     }
@@ -247,6 +247,12 @@
           $border-color-hover: $primary-blue
         );
       }
+    }
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -318,6 +324,12 @@
       width: fit-content;
     }
   }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 // HISTORY PAGE
@@ -332,6 +344,18 @@
       $border-color: $primary-blue,
       $border-color-hover: $primary-blue
     );
+  }
+}
+
+.history-mens {
+  .notable-champs {
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    @media (width > $md) {
+      margin-top: 910px;
+      margin-bottom: 170px;
+    }
   }
 }
 

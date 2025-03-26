@@ -16,7 +16,10 @@
       "blockGap": true,
       "margin": true,
       "padding": true
-    },        
+    },
+    "shadow": {
+      "defaultPresets": true
+    },
     "color": {
         "palette": [
             {
@@ -157,6 +160,11 @@
       "core/list": {
         "typography": {
           "fontFamily": "Poppins"
+        }
+      },
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "Protest Strike"
         }
       }
     },
