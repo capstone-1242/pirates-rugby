@@ -216,10 +216,6 @@ img {
 .wp-block-cover .wp-block-navigation-item__content {
   font-family: "Protest_Strike", sans-serif;
 }
-.wp-block-cover .wp-block-navigation__submenu-container {
-  background-color: rgba(255, 255, 255, 0.3) !important;
-  border-radius: 3px;
-}
 
 .index-page .index-about-us .solid-button .wp-block-button {
   width: 300px;
