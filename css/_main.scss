@@ -109,8 +109,22 @@
       box-shadow: 0px 4px 4px 0px #00000040;
       transition: all 0.1s ease-in;
 
+      .image-container {
+        display: flex;
+        margin-right: 0.5rem;
+      }
+
+      span {
+        text-align: left;
+      }
+
       &:hover {
-        background-color: $secondary-blue;
+        background-color: $white;
+        color: $primary-blue;
+
+        svg path {
+          fill: $primary-blue;
+        }
       }
 
       @media (width < $md) {
