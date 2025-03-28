@@ -242,7 +242,7 @@ img {
   }
 }
 .wp-block-cover .wp-block-navigation__submenu-container {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
   border-radius: 3px;
 }
 .wp-block-navigation.items-justified-right {
@@ -350,8 +350,19 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   transition: all 0.1s ease-in;
 }
+.index-page .skip-the-depot .skip-button .image-container {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.index-page .skip-the-depot .skip-button span {
+  text-align: left;
+}
 .index-page .skip-the-depot .skip-button:hover {
-  background-color: #2F478F;
+  background-color: #FFFFFF;
+  color: #4169E1;
+}
+.index-page .skip-the-depot .skip-button:hover svg path {
+  fill: #4169E1;
 }
 @media (width < 750px) {
   .index-page .skip-the-depot .skip-button {
@@ -706,5 +717,4 @@ footer .social-icons {
 footer .social-icons img {
   max-width: 100%;
   margin: 0;
-}/*# sourceMappingURL=style.css.map */
 
