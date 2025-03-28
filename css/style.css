@@ -247,8 +247,39 @@ img {
 }
 .wp-block-navigation.items-justified-right {
   --navigation-layout-justification-setting: center;
-  --navigation-layout-justify: flex-end;
-  
+  --navigation-layout-justify: flex-end;  
+}
+@media (width <= 750px) {
+  .top-level-nav-link a {
+    font-size: 24px;
+  }
+  .top-level-nav-link {
+    li a {
+      font-size: 16px;
+    }
+  }
+  .wp-block-navigation__container{
+    width: 100%;
+  }
+  .wp-block-navigation__container li {
+    width: 100%;
+  }
+  .wp-block-navigation__container li a {
+    width: 100%;
+    text-align: center;
+  }
+  .wp-block-navigation__submenu-container {
+    width: 100%;
+  }
+  .wp-block-navigation__submenu-container li {
+    width: 100%;
+  }
+  .wp-block-navigation__submenu-container li a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
 }
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
   background-color: rgba(255,255,255);
