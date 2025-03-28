@@ -241,14 +241,19 @@ img {
     height: 40px !important;
   }
 }
-.wp-block-cover .wp-block-navigation-item__content {
-  font-family: "Protest_Strike", sans-serif;
-}
 .wp-block-cover .wp-block-navigation__submenu-container {
   background-color: rgba(255, 255, 255, 0.3) !important;
   border-radius: 3px;
 }
-
+.wp-block-navigation.items-justified-right {
+  --navigation-layout-justification-setting: center;
+  --navigation-layout-justify: flex-end;
+  
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: rgba(255,255,255);
+  padding: 1rem;
+}
 .index-page .index-about-us .solid-button .wp-block-button {
   width: 300px;
   background-color: #4169E1;
@@ -702,3 +707,4 @@ footer .social-icons img {
   max-width: 100%;
   margin: 0;
 }/*# sourceMappingURL=style.css.map */
+

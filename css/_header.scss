@@ -116,13 +116,14 @@
     }
   }
 
-  .wp-block-navigation-item__content {
-    font-family: 'Protest_Strike', sans-serif;
-  }
-
   .wp-block-navigation__submenu-container {
     background-color: rgba(255,255,255, 0.3) !important;
     border-radius: 3px;
   }
+
+  .wp-block-navigation.items-justified-right {
+    --navigation-layout-justification-setting: center;
+    --navigation-layout-justify: flex-end
+}
 
 }
