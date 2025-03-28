@@ -121,4 +121,9 @@
     border-radius: 3px;
   }
 
+  .wp-block-navigation.items-justified-right {
+    --navigation-layout-justification-setting: center;
+    --navigation-layout-justify: flex-end
+}
+
 }

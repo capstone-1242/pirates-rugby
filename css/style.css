@@ -245,7 +245,15 @@ img {
   background-color: rgba(255, 255, 255, 0.2) !important;
   border-radius: 3px;
 }
-
+.wp-block-navigation.items-justified-right {
+  --navigation-layout-justification-setting: center;
+  --navigation-layout-justify: flex-end;
+  
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: rgba(255,255,255);
+  padding: 1rem;
+}
 .index-page .index-about-us .solid-button .wp-block-button {
   width: 300px;
   background-color: #4169E1;
@@ -709,4 +717,4 @@ footer .social-icons {
 footer .social-icons img {
   max-width: 100%;
   margin: 0;
-}
+
