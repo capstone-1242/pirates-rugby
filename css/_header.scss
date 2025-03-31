@@ -124,6 +124,25 @@
   .wp-block-navigation.items-justified-right {
     --navigation-layout-justification-setting: center;
     --navigation-layout-justify: flex-end
-}
+  }
+
+  @media (min-width: 600px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: unset;
+    }
+  }
+
+  @media (min-width: 830px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none;
+    }
+  }
+
+  @media (width <= 830px) {
+    .wp-block-navigation__container {
+        width: 100%;
+        display: none;
+    }
+  }
 
 }
