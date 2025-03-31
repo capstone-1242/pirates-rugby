@@ -649,3 +649,20 @@ footer .social-icons img {
   max-width: 100%;
   margin: 0;
 }
+ 
+.wp-block-navigation__responsive-container-open svg {
+  fill: currentColor;
+  display: block;
+  pointer-events: none;
+  width: 50px;
+  height: auto;
+}
+
+.wp-block-navigation__responsive-container-close svg {
+  fill: currentColor;
+  display: block;
+  pointer-events: none;
+  width: 50px;
+  height: auto;
+  padding: 1rem;
+}
