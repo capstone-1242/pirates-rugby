@@ -135,7 +135,6 @@
   @media (min-width: 830px) {
     .wp-block-navigation__responsive-container-open:not(.always-shown) {
         display: none;
-        display: none;
     }
   }
 
@@ -143,6 +142,28 @@
     .wp-block-navigation__container {
         width: 100%;
         display: none;
+    }
+
+    .wp-block-navigation__container{
+      width: 100%;
+    }
+    .wp-block-navigation__container li {
+      width: 100%;
+    }
+    .wp-block-navigation__container li a {
+      width: 100%;
+      text-align: center;
+    }
+    .wp-block-navigation__submenu-container {
+      width: 100%;
+    }
+    .wp-block-navigation__submenu-container li {
+      width: 100%;
+    }
+    .wp-block-navigation__submenu-container li a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
     }
   }
 
@@ -162,5 +183,7 @@
     height: auto;
     padding: 1rem;
   }
+
+
 
 }
