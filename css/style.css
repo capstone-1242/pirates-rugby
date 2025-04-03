@@ -715,6 +715,17 @@ img {
   text-decoration: underline;
 }
 
+footer nav ul {
+  width: 100%;
+  gap: 0 !important;
+}
+footer nav ul li {
+  width: 100%;
+}
+footer nav ul li a {
+  width: 100%;
+  padding: 0.5rem 0;
+}
 footer nav ul li a:hover {
   text-decoration: underline;
 }
@@ -745,21 +756,4 @@ footer .social-icons {
 footer .social-icons img {
   max-width: 100%;
   margin: 0;
-}
- 
-.wp-block-navigation__responsive-container-open svg {
-  fill: currentColor;
-  display: block;
-  pointer-events: none;
-  width: 50px;
-  height: auto;
-}
-
-.wp-block-navigation__responsive-container-close svg {
-  fill: currentColor;
-  display: block;
-  pointer-events: none;
-  width: 50px;
-  height: auto;
-  padding: 1rem;
 }
