@@ -6,9 +6,13 @@ footer {
   // Navigation hover styles
   nav {
     ul {
+      width: 100%;
+      gap: 0 !important;
       li {
+        width: 100%;
         a{
-          
+          width: 100%;
+          padding: 0.5rem 0;        
           &:hover {
             text-decoration: underline;
           }
