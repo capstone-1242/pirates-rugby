@@ -1,4 +1,4 @@
-<!-- wp:template-part {"slug":"header-no-hero","theme":"pirates-rugby","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"article-header","theme":"pirates-rugby","area":"uncategorized"} /-->
 
 <!-- wp:group {"tagName":"main","className":"all-archives-page","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group all-archives-page"
@@ -6,19 +6,19 @@
   <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"24px"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
   <div class="wp-block-group alignwide" style="margin-bottom:24px">
     <!-- wp:heading {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} -->
-    <h2 class="wp-block-heading alignwide has-secondary-color has-text-color has-link-color">Articles</h2>
+    <h2 class="wp-block-heading alignwide has-secondary-color has-text-color has-link-color">Articles by Tag</h2>
     <!-- /wp:heading -->
 
     <!-- wp:template-part {"slug":"posts-filter-bar","theme":"pirates-rugby","area":"uncategorized","align":"wide"} /-->
   </div>
   <!-- /wp:group -->
 
-  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|60"}}}} -->
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} -->
   <div class="wp-block-columns alignwide"
-    style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--60)">
+    style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)">
     <!-- wp:column {"width":"100%"} -->
     <div class="wp-block-column" style="flex-basis:100%">
-      <!-- wp:query {"queryId":10,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"parents":[],"format":[]}} -->
+      <!-- wp:query {"queryId":10,"query":{"perPage":8,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"category":[6]}}} -->
       <div class="wp-block-query"><!-- wp:query-no-results -->
         <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
         <p>No posts found.</p>
