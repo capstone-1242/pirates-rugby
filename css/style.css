@@ -148,6 +148,12 @@ img {
   padding: 0;
 }
 
+.wp-block-archives-dropdown select, .wp-block-categories-dropdown select {
+  border: 1px solid #979797;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
 @media (width <= 850px) {
   .wp-block-cover {
     padding: var(--wp--preset--spacing--30) !important;
